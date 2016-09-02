@@ -52,4 +52,19 @@ diagonal([[1,10,12,12],[1,10,12,12],[1,10,12,12],[1,10,12,12]])
 end 
  
  sort_array([12,3,45,88,33,55,65,77,75,31,1,79]
+ 
+ def pie(n)
+result=1
+    if n==0
+       puts result
+    else
+       1.upto(n) do |i|
+           result=result+i
+       end
+    end
+    puts result
+end
+
+pie(4)
+
 end
